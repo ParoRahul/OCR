@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gcvParams>
+   <textDetection>
+	    <!-- Google cloud vision URL path. -->
+       <level name="Url" value="https://vision.googleapis.com/v1/images:annotate" type ="STRING"/>
+		 <!-- Google cloud vision Key. -->
+		 <level name="Key" value="2f8bd42444e47a6f36c4c81e9d0ccaa70777c511" type ="STRING"/>
+		 <!-- Image Batch Size . -->
+		 <level name="BatchSize" value="10" type ="INT"/>
+   </textDetection>
+	<files>
+	<!-- Path where the Images are stored. -->
+		<level name="DataPath" value="D:\Python\Image" type ="STRING"/>
+		<level name="JsonPath" value="D:\Python\GCV\jsons" type ="STRING"/>
+	</files>
+</gcvParams>
